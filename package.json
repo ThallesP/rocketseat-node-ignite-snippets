@@ -7,6 +7,10 @@
   "engines": {
     "vscode": "^1.62.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThallesP/ignite-node-snippets.git"
+  },
   "icon": "assets/icon.png",
   "categories": [
     "Snippets"
