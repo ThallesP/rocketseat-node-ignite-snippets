@@ -1,0 +1,41 @@
+{
+  "UseCase Snippet": {
+    "prefix": "usce",
+    "scope": "typescript",
+    "body": [
+      "import { injectable } from 'tsyringe';",
+      "",
+      "@injectable()",
+      "class ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} {",
+      "  async execute($1) {",
+      "    $2",
+      "  }",
+      "}",
+      "",
+      "export { ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} };"
+    ],
+    "description": "Simple UseCase Snippet"
+  },
+  "Controller Snippet": {
+    "prefix": "ctlr",
+    "scope": "typescript",
+    "body": [
+      "import { Request, Response } from 'express';",
+      "import { container } from 'tsyringe';",
+      "",
+      "import { ${TM_FILENAME_BASE/Controller/UseCase/} } from './${TM_FILENAME_BASE/Controller/UseCase/}';",
+      "",
+      "class ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} {",
+      "  async handle(request: Request, response: Response): Promise<Response> {",
+      "    const ${TM_FILENAME_BASE/(Controller)|(.)/${1:+UseCase}${2:/downcase}/g} = container.resolve(${TM_FILENAME_BASE/Controller/UseCase/});",
+      "    const $1 = await ${TM_FILENAME_BASE/(Controller)|(.)/${1:+UseCase}${2:/downcase}/g}.execute();",
+      "",
+      "    return response.json($1);",
+      "  }",
+      "}",
+      "",
+      "export { ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} };"
+    ],
+    "description": "Simple Controller Snippet"
+  }
+}
