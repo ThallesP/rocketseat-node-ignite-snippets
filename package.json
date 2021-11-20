@@ -1,7 +1,7 @@
 {
   "name": "rocketseat-node-ignite-snippets",
   "displayName": "Rocketseat Node Ignite",
-  "description": "A simple pack of snippets.",
+  "description": "A simple pack of snippets.\nThis extension is not maintained by Rocketseat, it's made by one of their students.",
   "publisher": "ThallesP",
   "version": "0.0.4",
   "license": "MIT",
