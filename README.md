@@ -3,25 +3,26 @@
 </p>
 <h1 align="center">Rocketseat Node Ignite</h1>
 
-> Simple pack of Snippets that I personal use in Rocketseat's bootcamp named Ignite!  
+⚠️ This extension is not maintained by [Rocketseat](https://www.rocketseat.com.br/), **it's made by one of their students**.  
+Please, don't contact them to get help on anything about this extension.
 
-> ⚠️ The extension is not maintained by [Rocketseat](https://www.rocketseat.com.br/), **it's made by one of their students**.  
-> Please, don't contact them to get help on anything about this extension.
+> Simple pack of Snippets that I personally use in Rocketseat's bootcamp named Ignite!  
+
 
 ## 🚀 How do install it?
 
-You can install it as a extension.  
+You can install it as an extension.  
 Just search by "Rocketseat Node Ignite" in VSCode's extension marketplace.
 
 ## ⚙️ Snippets
 
 - **CTLR**  
-Creates simple controller that auto import your UseCase  
-It gets your filename and replace the "Controller" with "UseCase" so pay attention to your filename!
+Creates a simple controller that auto-import your UseCase  
+It gets your filename and replaces the "Controller" with "UseCase" so pay attention to your filename!
 
 - **USCE**  
-Creates simple UseCase with dependency injection using Tsyringe  
-It gets your filename to create the Class so pay attention to that!
+Creates a simple UseCase with dependency injection  
+It gets your filename to create the Class so pay attention to your filename!
 
 ## 📨 Contact
 You can contact me through my e-mail (contato@thalles.me).  
