@@ -1,14 +1,17 @@
 <p align="center">
 <img width="170" src="assets/icon.png" />
 </p>
-<h1 align="center">Ignite Node Snippets</h1>
+<h1 align="center">Rocketseat Node Ignite</h1>
 
-> Simple pack of Snippets that I personal use in Rocketseat's bootcamp called Ignite!
+> Simple pack of Snippets that I personal use in Rocketseat's bootcamp named Ignite!  
+
+> ⚠️ The extension is not maintained by [Rocketseat](https://www.rocketseat.com.br/), **it's made by one of their students**.  
+> Please, don't contact them to get help on anything about this extension.
 
 ## 🚀 How do install it?
 
 You can install it as a extension.  
-Just search by "Ignite Node Snippets" in VSCode's extension marketplace.
+Just search by "Rocketseat Node Ignite" in VSCode's extension marketplace.
 
 ## ⚙️ Snippets
 

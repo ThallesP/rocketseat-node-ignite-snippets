@@ -1,16 +1,22 @@
 {
-  "name": "ignite-node-snippets",
-  "displayName": "Ignite Node Snippets Pack",
-  "description": "A simple pack of snippets from Ignite (Bootcamp) by Rocketseat!",
+  "name": "rocketseat-node-ignite-snippets",
+  "displayName": "Rocketseat NodeJS",
+  "description": "A simple pack of snippets.",
   "publisher": "ThallesP",
   "version": "0.0.2",
   "license": "MIT",
   "engines": {
     "vscode": "^1.62.0"
   },
+  "maintainers": [
+    {
+      "name": "Thalles Passos",
+      "email": "contato@thalles.me"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ThallesP/ignite-node-snippets.git"
+    "url": "https://github.com/ThallesP/rocketseat-node-ignite-snippets.git"
   },
   "icon": "assets/icon.png",
   "categories": [
