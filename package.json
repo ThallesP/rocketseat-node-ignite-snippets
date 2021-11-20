@@ -3,7 +3,7 @@
   "displayName": "Rocketseat Node Ignite",
   "description": "A simple pack of snippets.\nThis extension is not maintained by Rocketseat, it's made by one of their students.",
   "publisher": "ThallesP",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "engines": {
     "vscode": "^1.62.0"
