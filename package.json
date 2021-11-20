@@ -6,7 +6,7 @@
   "version": "0.0.5",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.62.0"
+    "vscode": "^0.10.x"
   },
   "maintainers": [
     {
