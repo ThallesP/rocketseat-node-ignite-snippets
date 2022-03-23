@@ -25,5 +25,4 @@ Creates a simple UseCase with dependency injection
 It gets your filename to create the Class so pay attention to your filename!
 
 ## 📨 Contact
-You can contact me through my e-mail (contato@thalles.me).  
 If you have any questions or suggestions, you can always open an issue on this repository!
